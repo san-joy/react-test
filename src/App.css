@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.4;
+  background: rgb(212, 213, 228);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+
+input,
+button {
+  outline: none;
+}
+
+.addButton {
+  width: 30%;
+  float: right;
+  padding: 16px;
+  overflow: hidden;
+  background: #29648a;
+  border: 0;
+  color: #ffffff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.addButton:hover,
+.addButton:focus {
+  background: #2e9cca;
+  outline: 0;
+  cursor: pointer;
+}
+
+.trashButton {
+  background: none;
+  outline: 0;
+  border: 0;
+  color: red;
+  cursor: pointer;
+  float: right;
+}
+
+.valueOneStyle,
+.valueTwoStyle {
+  width: 49.5%;
+  float: left;
+}
+
+.valueOneStyle input,
+.valueTwoStyle input {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+}
+
+.valueTwoStyle {
+  margin-left: 1%;
+}
+
+.validationError {
+  font-size: 12px;
+  color: red;
+}
+
+.addValueButton {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0;
+  border: 0;
+  margin: 10px 0;
+  background: #2e9cca;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+}
