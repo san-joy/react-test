@@ -89,4 +89,12 @@ button {
   color: #ffffff;
   font-size: 20px;
   font-weight: 200;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+.addValueButton:hover,
+.addValueButton:focus {
+  background: #29648a;
+  outline: 0;
+  cursor: pointer;
 }
